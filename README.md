@@ -35,6 +35,13 @@ To make a valid request, the client needs to include four things:
  • PUT - Asks the server to edit/update an existing resource
  • DELETE - Asks the server to delete a resource
  
+ Send a GET request without any body data.
+ 2 Send a POST request and type your favorite kind of pizza in the
+body field.
+ 3 Send a PUT request and type a new ingredient to add to your
+pizza in the body field.
+ 4 Send a DELETE request without any body data. 
+ 
  
  Headers provide meta-information about a request
  
@@ -51,3 +58,21 @@ of info to the client.
 DELETE), a list of headers (User-Agent…), and a body (data).
  • Response - consists of a status code (200, 404…), a list of headers,
 and a body.
+
+JSON: JavaScript Object Notation
+ • Object: a thing or noun (person, pizza order...)
+ • Key: an attribute about an object (color, toppings...)
+ • Value: the value of an attribute (blue, pepperoni...)
+ • Associative array: a nested object
+ • XML: Extensible Markup Language 
+
+
+The key terms we learned were:
+ • Authentication: process of the client proving its identity to the
+server
+ • Credentials: secret pieces of info used to prove the client's
+identity (username, password...)
+ • Basic Auth: scheme that uses an encoded username and
+password for credentials
+ • API Key Auth: scheme that uses a unique key for credentials
+ • Authorization Header: the HTTP header used to hold credentials
